@@ -1,0 +1,56 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-color: #925C24;
+    position: relative;
+}
+
+.wrapper{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    padding-top: 50px;
+    border: 15px solid #E17E57;
+    background-color: #F9EE98;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.timer-body{
+    padding: 30px 0;    
+}
+
+.timer-body li{
+	display: inline-block;
+	text-align: center;
+	font-size: 10px;
+}
+
+.timer-body span{
+	display: block;
+	font-size: 80px;
+	line-height: 100px;
+}
+ 
+.timer-control li{
+	display: inline-block;
+}
+
+.timer-control a{
+	display: block;
+	padding: 10px;
+	margin: 0 10px;
+	border-radius: 6px;
+	background-color: #E17E57;
+	text-decoration: none;
+	font-size: 20px;
+	color: #f00;
+}

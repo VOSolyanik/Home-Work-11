@@ -1,0 +1,321 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, d:/Temp/hw11/Bluemist/sass/screen.scss */
+body {
+  background: #64a0c2 url("../images/bg_top.jpg") center top repeat-x;
+}
+
+/* line 13, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.cleafix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/* line 20, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.wrapper {
+  max-width: 950px;
+  margin: 30px auto 47px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  background: #e3edf2;
+}
+
+/* line 27, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.top {
+  padding: 16px 10px 12px;
+  background: #e3edf2;
+  background: -moz-linear-gradient(top, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e3edf2), color-stop(89%, #e3edf2), color-stop(100%, #dae5ea));
+  background: -webkit-linear-gradient(top, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%);
+  background: -o-linear-gradient(top, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%);
+  background: -ms-linear-gradient(top, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%);
+  background: linear-gradient(to bottom, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%);
+}
+
+/* line 37, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.header {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* line 41, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.header-left {
+  float: left;
+  width: 47%;
+}
+/* line 44, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.header-left .logo {
+  display: block;
+  text-decoration: none;
+  padding-left: 15px;
+}
+/* line 48, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.header-left .logo span {
+  display: block;
+}
+/* line 51, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.header-left .logo .logo-main {
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.75);
+  font-size: 26px;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 35px;
+  color: #4584a7;
+}
+/* line 59, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.header-left .logo .logo-aside {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Mariad Pro",Arial,sans-serif;
+  line-height: 35px;
+  color: #3b799c;
+}
+/* line 67, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.header-left .searching-form {
+  padding-left: 13px;
+}
+/* line 69, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.header-left .searching-form input[type="text"] {
+  width: 282px;
+  padding-left: 10px;
+  line-height: 30px;
+  border: 1px solid #c3d4dd;
+  -webkit-box-shadow: white 0 0 0 2px inset, #dbe7ee -2px -2px 1px;
+  -moz-box-shadow: white 0 0 0 2px inset, #dbe7ee -2px -2px 1px;
+  box-shadow: white 0 0 0 2px inset, #dbe7ee -2px -2px 1px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f1f2), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(#f2f1f2, #ffffff);
+  background-image: -moz-linear-gradient(#f2f1f2, #ffffff);
+  background-image: -o-linear-gradient(#f2f1f2, #ffffff);
+  background-image: linear-gradient(#f2f1f2, #ffffff);
+}
+/* line 77, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.header-left .searching-form input[type="submit"] {
+  padding: 0 10px;
+  line-height: 30px;
+  border: 1px solid #e28a0d;
+  -webkit-box-shadow: #ffefb8 0 0 0 1px inset;
+  -moz-box-shadow: #ffefb8 0 0 0 1px inset;
+  box-shadow: #ffefb8 0 0 0 1px inset;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffdd67), color-stop(100%, #ffb926));
+  background-image: -webkit-linear-gradient(#ffdd67, #ffb926);
+  background-image: -moz-linear-gradient(#ffdd67, #ffb926);
+  background-image: -o-linear-gradient(#ffdd67, #ffb926);
+  background-image: linear-gradient(#ffdd67, #ffb926);
+  font-size: 12px;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px #d48a09;
+}
+
+/* line 91, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.header-right {
+  float: right;
+  width: 50%;
+  height: 78px;
+  border: 8px solid #d0dee5;
+  background: #fff;
+}
+
+/* line 98, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.top-menu {
+  padding: 5px;
+  margin-bottom: 20px;
+  background: #cae3ef;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 103, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.top-menu li {
+  display: inline-block;
+  margin-right: 7px;
+}
+/* line 106, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.top-menu li a {
+  display: block;
+  width: 118px;
+  line-height: 25px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d1e7f1), color-stop(100%, #fbfbfb));
+  background-image: -webkit-linear-gradient(#d1e7f1, #fbfbfb);
+  background-image: -moz-linear-gradient(#d1e7f1, #fbfbfb);
+  background-image: -o-linear-gradient(#d1e7f1, #fbfbfb);
+  background-image: linear-gradient(#d1e7f1, #fbfbfb);
+  border: 1px solid #fff;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #64a0c2;
+}
+/* line 120, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.top-menu li a.active-menu-item {
+  border: none;
+  line-height: 27px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a9ccde), color-stop(100%, #cae3ef));
+  background-image: -webkit-linear-gradient(#a9ccde, #cae3ef);
+  background-image: -moz-linear-gradient(#a9ccde, #cae3ef);
+  background-image: -o-linear-gradient(#a9ccde, #cae3ef);
+  background-image: linear-gradient(#a9ccde, #cae3ef);
+}
+
+/* line 129, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.articles-tab .tab-buttons li {
+  display: inline-block;
+  margin-right: -4px;
+  line-height: 25px;
+  text-align: center;
+  width: 150px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  -moz-border-radius-topleft: 8px;
+  -webkit-border-top-left-radius: 8px;
+  border-top-left-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  -webkit-border-top-right-radius: 8px;
+  border-top-right-radius: 8px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #397699), color-stop(100%, #316b8d));
+  background-image: -webkit-linear-gradient(#397699, #316b8d);
+  background-image: -moz-linear-gradient(#397699, #316b8d);
+  background-image: -o-linear-gradient(#397699, #316b8d);
+  background-image: linear-gradient(#397699, #316b8d);
+}
+/* line 142, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.articles-tab .tab-buttons li.active-tab {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1c597c), color-stop(100%, #306a8c));
+  background-image: -webkit-linear-gradient(#1c597c, #306a8c);
+  background-image: -moz-linear-gradient(#1c597c, #306a8c);
+  background-image: -o-linear-gradient(#1c597c, #306a8c);
+  background-image: linear-gradient(#1c597c, #306a8c);
+}
+
+/* line 147, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.tab-content {
+  padding: 3px;
+  overflow: hidden;
+  background: #39779a;
+  -moz-border-radius-topright: 8px;
+  -webkit-border-top-right-radius: 8px;
+  border-top-right-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+/* line 154, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.tab-content .left-tab-content {
+  float: left;
+  width: 46%;
+  padding: 0 2% 2%;
+}
+/* line 159, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.tab-content .right-tab-content {
+  float: right;
+  width: 46%;
+  padding: 0 2% 2%;
+  background: #4481a5;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* line 167, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.tab-content .article-title {
+  line-height: 44px;
+  font-size: 24px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #b0c7d5;
+}
+/* line 173, d:/Temp/hw11/Bluemist/sass/screen.scss */
+.tab-content .article-content {
+  line-height: 24px;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: white;
+}

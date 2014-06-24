@@ -1,0 +1,180 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+body{
+	background: #64a0c2 url("../images/bg_top.jpg") center top repeat-x;
+}
+
+.cleafix:after{
+	content:"";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.wrapper{
+	max-width: 950px;
+	margin: 30px auto 47px;
+	@include border-radius(7px);
+	background: #e3edf2;
+}
+
+.top{
+	padding: 16px 10px 12px;
+	background: #e3edf2;
+	background: -moz-linear-gradient(top, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e3edf2), color-stop(89%,#e3edf2), color-stop(100%,#dae5ea));
+    background: -webkit-linear-gradient(top, #e3edf2 0%,#e3edf2 89%,#dae5ea 100%);
+    background: -o-linear-gradient(top, #e3edf2 0%,#e3edf2 89%,#dae5ea 100%); 
+    background: -ms-linear-gradient(top, #e3edf2 0%,#e3edf2 89%,#dae5ea 100%); 
+    background: linear-gradient(to bottom, #e3edf2 0%,#e3edf2 89%,#dae5ea 100%); 	
+}
+.header{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.header-left{
+	float: left;
+	width: 47%;
+	.logo{
+		display: block;
+		text-decoration: none;
+		padding-left: 15px;
+		span{
+			display: block;
+		}
+		.logo-main{
+  			text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.75);
+			font-size: 26px;
+			font-family: Verdana, Arial, sans-serif;
+			font-weight: normal;
+			line-height: 35px;
+  			color: #4584a7;
+		}
+		.logo-aside{
+			font-size: 14px;
+			text-transform: uppercase;
+			font-family: "Mariad Pro",Arial,sans-serif;
+			line-height: 35px;
+			color: #3b799c;
+		}		
+	}
+	.searching-form{
+		padding-left: 13px;
+		input[type="text"]{
+			width: 282px;
+			padding-left: 10px;
+			line-height: 30px;
+			border: 1px solid #c3d4dd;
+			@include box-shadow(rgba(255,255,255,1) 0 0 0 2px inset, rgba(219,231,238,1) -2px -2px 1px);
+			@include background-image(linear-gradient(#f2f1f2, #fff));
+		}
+		input[type="submit"]{
+			padding: 0 10px;
+			line-height: 30px;
+			border: 1px solid #e28a0d;
+			@include box-shadow(rgba(255,239,184,1) 0 0 0 1px inset);
+			@include background-image(linear-gradient(#ffdd67, #ffb926));
+			font-size: 12px;
+			font-family: Verdana, Arial, sans-serif;
+			font-weight: bold;
+			color: #fff;
+			text-shadow: 0 0 10px #d48a09; 
+		}
+	}
+}
+.header-right{
+	float: right;
+	width: 50%;
+	height: 78px;
+	border: 8px solid #d0dee5;
+	background: #fff;
+}
+.top-menu{
+	padding: 5px;
+	margin-bottom: 20px;
+	background: #cae3ef;
+	@include border-radius(4px);
+	li{
+		display: inline-block;
+		margin-right: 7px;
+		a{
+			display: block;
+			width: 118px;
+			line-height: 25px;
+			@include border-radius(4px);
+			@include background-image(linear-gradient(#d1e7f1, #fbfbfb));
+			border: 1px solid #fff;
+			font-family: Verdana, Arial, sans-serif;
+			font-size: 12px;
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+			color: #64a0c2;
+		}
+		a.active-menu-item{
+			border: none;
+			line-height: 27px;
+			@include background-image(linear-gradient(#a9ccde, #cae3ef));
+		}
+	}
+}
+.articles-tab{
+	.tab-buttons{
+		li{
+			display: inline-block;
+			margin-right: -4px;
+			line-height: 25px;
+			text-align: center;
+			width: 150px;
+			font-family: Verdana, Arial, sans-serif;
+			font-size: 12px;
+			color: #fff;
+			@include border-top-left-radius(8px);
+			@include border-top-right-radius(8px);
+			@include background-image(linear-gradient(#397699, #316b8d));
+		}
+		li.active-tab{
+			@include background-image(linear-gradient(#1c597c, #306a8c));
+		}
+	}
+}
+.tab-content{
+	padding: 3px;
+	overflow: hidden;
+	background: #39779a;
+	@include border-top-right-radius(8px);
+	@include border-bottom-left-radius(8px);
+	@include border-bottom-right-radius(8px);
+	.left-tab-content{
+		float: left;
+		width: 46%;
+		padding: 0 2% 2%;
+	}
+	.right-tab-content{
+		float: right;
+		width: 46%;
+		padding: 0 2% 2%;
+		background: #4481a5;
+		@include border-top-right-radius(5px);
+		@include border-bottom-right-radius(5px);
+	}
+	.article-title{
+		line-height: 44px;
+		font-size: 24px;
+		font-family: Verdana, Arial, sans-serif;
+		color: #b0c7d5;
+	}
+	.article-content{
+		line-height: 24px;
+		font-size: 11px;
+		font-family: Verdana, Arial, sans-serif;
+		color: white
+	}
+}
+
