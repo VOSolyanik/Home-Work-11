@@ -100,7 +100,7 @@ body{
 			font-family: Verdana, Arial, sans-serif;
 			font-weight: bold;
 			color: #fff;
-			text-shadow: #d48a09 2px 0px, #d48a09 2px 2px, #d48a09 0px 2px, #d48a09 -2px 2px, #d48a09 -2px 0px, #d48a09 -2px -2px, #d48a09 0px -2px, #d48a09 2px -2px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px;
+			text-shadow: #d48a09 1px 0px, #d48a09 1px 1px, #d48a09 0px 1px, #d48a09 -1px 1px, #d48a09 -1px 0px, #d48a09 -1px -1px, #d48a09 0px -1px, #d48a09 1px -1px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px;
 		}
 	}
 }
@@ -134,8 +134,8 @@ body{
 			color: #64a0c2;
 		}
 		a.active-menu-item{
-			border: none;
-			line-height: 27px;
+			line-height: 26px;
+			border-bottom: none;
 			@include background-image(linear-gradient(#a9ccde, #cae3ef));
 		}
 	}
@@ -180,6 +180,9 @@ body{
 			float: left;
 			width: 46%;
 			padding: 0 2% 2%;
+			.article-title{
+				color: #ffffff;
+			}
 		}
 		.right-tab-content{
 			float: right;

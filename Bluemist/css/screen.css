@@ -188,7 +188,7 @@ body {
   font-family: Verdana, Arial, sans-serif;
   font-weight: bold;
   color: #fff;
-  text-shadow: #d48a09 2px 0px, #d48a09 2px 2px, #d48a09 0px 2px, #d48a09 -2px 2px, #d48a09 -2px 0px, #d48a09 -2px -2px, #d48a09 0px -2px, #d48a09 2px -2px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px;
+  text-shadow: #d48a09 1px 0px, #d48a09 1px 1px, #d48a09 0px 1px, #d48a09 -1px 1px, #d48a09 -1px 0px, #d48a09 -1px -1px, #d48a09 0px -1px, #d48a09 1px -1px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px;
 }
 
 /* line 107, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
@@ -241,8 +241,8 @@ body {
 }
 /* line 136, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .top-menu li a.active-menu-item {
-  border: none;
-  line-height: 27px;
+  line-height: 26px;
+  border-bottom: none;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a9ccde), color-stop(100%, #cae3ef));
   background-image: -webkit-linear-gradient(#a9ccde, #cae3ef);
   background-image: -moz-linear-gradient(#a9ccde, #cae3ef);
@@ -312,7 +312,11 @@ body {
   width: 46%;
   padding: 0 2% 2%;
 }
-/* line 184, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 183, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+.tabs .tab-content .left-tab-content .article-title {
+  color: #ffffff;
+}
+/* line 187, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .tabs .tab-content .right-tab-content {
   float: right;
   width: 46%;
@@ -325,30 +329,30 @@ body {
   -webkit-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-/* line 192, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 195, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .tabs .tab-content .article-title {
   line-height: 44px;
   font-size: 24px;
   font-family: Verdana, Arial, sans-serif;
   color: #b0c7d5;
 }
-/* line 198, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 201, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .tabs .tab-content .article-content {
   line-height: 24px;
   font-size: 11px;
   font-family: Verdana, Arial, sans-serif;
   color: white;
 }
-/* line 205, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 208, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .tabs .no-script {
   display: block;
 }
-/* line 208, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 211, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .tabs .active-tab {
   display: block;
 }
 
-/* line 212, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 215, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .bottom {
   border-top: 1px solid #e0e0e0;
   padding: 10px 17px;
@@ -359,7 +363,7 @@ body {
   background-image: linear-gradient(top, #f3f3f3 0%, #ffffff 20%, #ffffff 100%);
 }
 
-/* line 217, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 220, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .featured-post {
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
@@ -370,7 +374,7 @@ body {
   overflow: hidden;
   background: #fff;
 }
-/* line 222, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 225, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .featured-post .posts-title {
   padding-left: 10px;
   font-family: Verdana, Arial, sans-serif;
@@ -379,13 +383,13 @@ body {
   color: #64a0c2;
 }
 
-/* line 230, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 233, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-header {
   padding: 10px;
   border-bottom: 1px solid #e5e5e5;
   overflow: hidden;
 }
-/* line 234, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 237, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-header .post-img {
   float: left;
   max-width: 385px;
@@ -394,12 +398,12 @@ body {
   margin-right: 35px;
   border: 5px solid #f7f7f7;
 }
-/* line 241, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 244, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-header .post-img img {
   width: 100%;
   height: 100%;
 }
-/* line 246, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 249, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-header .post-content {
   overflow: hidden;
   font-family: Verdana, Arial, sans-serif;
@@ -411,12 +415,12 @@ body {
   text-overflow: ellipsis;
 }
 
-/* line 257, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 260, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-footer {
   padding: 0 2px;
   overflow: hidden;
 }
-/* line 260, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 263, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-footer .posts-footer-left {
   float: left;
   width: 61%;
@@ -424,7 +428,7 @@ body {
   padding: 20px 1% 0 0;
   border-right: 1px solid #e5e5e5;
 }
-/* line 266, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 269, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-footer .posts-footer-left .author-avatar {
   float: left;
   width: 102px;
@@ -432,7 +436,7 @@ body {
   margin-right: 12px;
   background: #f7f7f7;
 }
-/* line 273, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 276, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-footer .posts-footer-left .post-footer-title a {
   font-family: Verdana, Arial, sans-serif;
   line-height: 20px;
@@ -440,7 +444,7 @@ body {
   font-size: 18px;
   text-decoration: none;
 }
-/* line 280, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 283, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-footer .posts-footer-left .post-info {
   padding-left: 132px;
   line-height: 26px;
@@ -449,7 +453,7 @@ body {
   font-style: italic;
   color: #888;
 }
-/* line 288, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 291, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-footer .posts-footer-left .post-content {
   line-height: 18px;
   max-height: 54px;
