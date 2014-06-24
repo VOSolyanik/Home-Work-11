@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -75,12 +75,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
-/* line 23, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 24, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 body {
   background: #64a0c2 url("../images/bg_top.jpg") center top repeat-x;
 }
 
-/* line 27, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 28, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .cleafix:after {
   content: "";
   display: block;
@@ -88,7 +88,7 @@ body {
   clear: both;
 }
 
-/* line 34, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 35, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .wrapper {
   overflow: hidden;
   max-width: 950px;
@@ -98,44 +98,43 @@ body {
   -ms-border-radius: 9px;
   -o-border-radius: 9px;
   border-radius: 9px;
-  background: #e3edf2;
+  background: #fff;
 }
 
-/* line 42, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 43, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .top {
   padding: 16px 10px 12px;
   border-bottom: 1px solid #fff;
-  background: #e3edf2;
-  background: -moz-linear-gradient(top, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e3edf2), color-stop(89%, #e3edf2), color-stop(100%, #dae5ea));
-  background: -webkit-linear-gradient(top, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%);
-  background: -o-linear-gradient(top, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%);
-  background: -ms-linear-gradient(top, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%);
-  background: linear-gradient(to bottom, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%);
+  background-color: #e3edf2;
+  background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, #e3edf2), color-stop(89%, #e3edf2), color-stop(100%, #dae5ea));
+  background-image: -webkit-linear-gradient(to bottom, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%);
+  background-image: -moz-linear-gradient(to bottom, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%);
+  background-image: -o-linear-gradient(to bottom, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%);
+  background-image: linear-gradient(to bottom, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%);
 }
 
-/* line 53, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 49, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .header {
   overflow: hidden;
   margin-bottom: 20px;
 }
 
-/* line 57, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 53, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .header-left {
   float: left;
   width: 47%;
 }
-/* line 60, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 56, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .header-left .logo {
   display: block;
   text-decoration: none;
   padding-left: 15px;
 }
-/* line 64, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 60, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .header-left .logo span {
   display: block;
 }
-/* line 67, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 63, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .header-left .logo .logo-main {
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.75);
   font-size: 26px;
@@ -144,7 +143,7 @@ body {
   line-height: 35px;
   color: #4584a7;
 }
-/* line 75, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 71, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .header-left .logo .logo-aside {
   font-size: 14px;
   text-transform: uppercase;
@@ -152,16 +151,18 @@ body {
   line-height: 35px;
   color: #3b799c;
 }
-/* line 83, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 79, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .header-left .searching-form {
   padding-left: 13px;
 }
-/* line 85, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 81, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .header-left .searching-form input[type="text"] {
   width: 282px;
   padding-left: 10px;
+  height: 30px;
   line-height: 30px;
   border: 1px solid #c3d4dd;
+  background-color: #f2f1f2;
   -webkit-box-shadow: white 0 0 0 2px inset, #dbe7ee -2px -2px 1px;
   -moz-box-shadow: white 0 0 0 2px inset, #dbe7ee -2px -2px 1px;
   box-shadow: white 0 0 0 2px inset, #dbe7ee -2px -2px 1px;
@@ -171,11 +172,12 @@ body {
   background-image: -o-linear-gradient(#f2f1f2, #ffffff);
   background-image: linear-gradient(#f2f1f2, #ffffff);
 }
-/* line 93, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 91, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .header-left .searching-form input[type="submit"] {
   padding: 0 10px;
   line-height: 30px;
   border: 1px solid #e28a0d;
+  background-color: #ffdd67;
   -webkit-box-shadow: #ffefb8 0 0 0 1px inset;
   -moz-box-shadow: #ffefb8 0 0 0 1px inset;
   box-shadow: #ffefb8 0 0 0 1px inset;
@@ -191,7 +193,7 @@ body {
   text-shadow: #d48a09 1px 0px, #d48a09 1px 1px, #d48a09 0px 1px, #d48a09 -1px 1px, #d48a09 -1px 0px, #d48a09 -1px -1px, #d48a09 0px -1px, #d48a09 1px -1px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px, #d48a09 0 0 3px;
 }
 
-/* line 107, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 106, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .header-right {
   float: right;
   width: 50%;
@@ -200,7 +202,7 @@ body {
   background: #fff;
 }
 
-/* line 114, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 113, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .top-menu {
   padding: 5px;
   margin-bottom: 20px;
@@ -211,12 +213,12 @@ body {
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 119, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 118, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .top-menu li {
   display: inline-block;
   margin-right: 7px;
 }
-/* line 122, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 121, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .top-menu li a {
   display: block;
   width: 118px;
@@ -226,6 +228,7 @@ body {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
+  background-color: #d1e7f1;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d1e7f1), color-stop(100%, #fbfbfb));
   background-image: -webkit-linear-gradient(#d1e7f1, #fbfbfb);
   background-image: -moz-linear-gradient(#d1e7f1, #fbfbfb);
@@ -243,6 +246,7 @@ body {
 .top-menu li a.active-menu-item {
   line-height: 26px;
   border-bottom: none;
+  background-color: #cae3ef;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a9ccde), color-stop(100%, #cae3ef));
   background-image: -webkit-linear-gradient(#a9ccde, #cae3ef);
   background-image: -moz-linear-gradient(#a9ccde, #cae3ef);
@@ -250,16 +254,17 @@ body {
   background-image: linear-gradient(#a9ccde, #cae3ef);
 }
 
-/* line 145, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 146, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .articles-tab .tab-buttons li {
   display: inline-block;
   margin-right: -4px;
 }
-/* line 148, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 149, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .articles-tab .tab-buttons li a {
   display: block;
   width: 150px;
   line-height: 25px;
+  background-color: #316b8d;
   text-decoration: none;
   text-align: center;
   font-family: Verdana, Arial, sans-serif;
@@ -277,12 +282,13 @@ body {
   background-image: -o-linear-gradient(#397699, #316b8d);
   background-image: linear-gradient(#397699, #316b8d);
 }
-/* line 160, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 162, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .articles-tab .tab-buttons li a:hover {
   cursor: pointer;
 }
-/* line 164, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 166, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .articles-tab .tab-buttons li .active-tab-button {
+  background-color: #1c597c;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1c597c), color-stop(100%, #306a8c));
   background-image: -webkit-linear-gradient(#1c597c, #306a8c);
   background-image: -moz-linear-gradient(#1c597c, #306a8c);
@@ -290,7 +296,7 @@ body {
   background-image: linear-gradient(#1c597c, #306a8c);
 }
 
-/* line 171, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 174, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .tabs .tab-content {
   display: none;
   padding: 3px;
@@ -306,17 +312,17 @@ body {
   -webkit-border-bottom-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
-/* line 179, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 182, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .tabs .tab-content .left-tab-content {
   float: left;
   width: 46%;
   padding: 0 2% 2%;
 }
-/* line 183, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 186, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .tabs .tab-content .left-tab-content .article-title {
   color: #ffffff;
 }
-/* line 187, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 190, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .tabs .tab-content .right-tab-content {
   float: right;
   width: 46%;
@@ -329,30 +335,30 @@ body {
   -webkit-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-/* line 195, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 198, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .tabs .tab-content .article-title {
   line-height: 44px;
   font-size: 24px;
   font-family: Verdana, Arial, sans-serif;
   color: #b0c7d5;
 }
-/* line 201, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 204, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .tabs .tab-content .article-content {
   line-height: 24px;
   font-size: 11px;
   font-family: Verdana, Arial, sans-serif;
   color: white;
 }
-/* line 208, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 211, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .tabs .no-script {
   display: block;
 }
-/* line 211, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 214, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .tabs .active-tab {
   display: block;
 }
 
-/* line 215, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 218, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .bottom {
   border-top: 1px solid #e0e0e0;
   padding: 10px 17px;
@@ -363,7 +369,7 @@ body {
   background-image: linear-gradient(top, #f3f3f3 0%, #ffffff 20%, #ffffff 100%);
 }
 
-/* line 220, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 223, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .featured-post {
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
@@ -374,22 +380,26 @@ body {
   overflow: hidden;
   background: #fff;
 }
-/* line 225, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 228, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .featured-post .posts-title {
   padding-left: 10px;
   font-family: Verdana, Arial, sans-serif;
   font-size: 30px;
   line-height: 48px;
+}
+/* line 233, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+.featured-post .posts-title a {
+  text-decoration: none;
   color: #64a0c2;
 }
 
-/* line 233, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 239, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-header {
   padding: 10px;
   border-bottom: 1px solid #e5e5e5;
   overflow: hidden;
 }
-/* line 237, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 243, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-header .post-img {
   float: left;
   max-width: 385px;
@@ -398,12 +408,12 @@ body {
   margin-right: 35px;
   border: 5px solid #f7f7f7;
 }
-/* line 244, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 250, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-header .post-img img {
   width: 100%;
   height: 100%;
 }
-/* line 249, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 255, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-header .post-content {
   overflow: hidden;
   font-family: Verdana, Arial, sans-serif;
@@ -415,12 +425,12 @@ body {
   text-overflow: ellipsis;
 }
 
-/* line 260, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 266, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-footer {
   padding: 0 2px;
   overflow: hidden;
 }
-/* line 263, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 269, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-footer .posts-footer-left {
   float: left;
   width: 61%;
@@ -428,7 +438,7 @@ body {
   padding: 20px 1% 0 0;
   border-right: 1px solid #e5e5e5;
 }
-/* line 269, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 275, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-footer .posts-footer-left .author-avatar {
   float: left;
   width: 102px;
@@ -436,7 +446,7 @@ body {
   margin-right: 12px;
   background: #f7f7f7;
 }
-/* line 276, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 282, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-footer .posts-footer-left .post-footer-title a {
   font-family: Verdana, Arial, sans-serif;
   line-height: 20px;
@@ -444,7 +454,7 @@ body {
   font-size: 18px;
   text-decoration: none;
 }
-/* line 283, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 289, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-footer .posts-footer-left .post-info {
   padding-left: 132px;
   line-height: 26px;
@@ -453,7 +463,7 @@ body {
   font-style: italic;
   color: #888;
 }
-/* line 291, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
+/* line 297, D:/Temp/Home-Work-11/Bluemist/sass/screen.scss */
 .posts-footer .posts-footer-left .post-content {
   line-height: 18px;
   max-height: 54px;

@@ -3,6 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
+@import "compass";
 @import "compass/reset";
 @import "compass/css3";
 
@@ -36,19 +37,14 @@ body{
 	max-width: 950px;
 	margin: 30px auto 47px;
 	@include border-radius(9px);
-	background: #e3edf2;
+	background: #fff;
 }
 
 .top{
 	padding: 16px 10px 12px;
-	border-bottom: 1px solid #fff;
-	background: #e3edf2;
-	background: -moz-linear-gradient(top, #e3edf2 0%, #e3edf2 89%, #dae5ea 100%); 
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e3edf2), color-stop(89%,#e3edf2), color-stop(100%,#dae5ea));
-    background: -webkit-linear-gradient(top, #e3edf2 0%,#e3edf2 89%,#dae5ea 100%);
-    background: -o-linear-gradient(top, #e3edf2 0%,#e3edf2 89%,#dae5ea 100%); 
-    background: -ms-linear-gradient(top, #e3edf2 0%,#e3edf2 89%,#dae5ea 100%); 
-    background: linear-gradient(to bottom, #e3edf2 0%,#e3edf2 89%,#dae5ea 100%); 	
+	border-bottom: 1px solid #fff;	
+	background-color: #e3edf2;
+    @include background-image(linear-gradient(to bottom, #e3edf2 0%,#e3edf2 89%,#dae5ea 100%)); 	
 }
 .header{
 	overflow: hidden;
@@ -85,8 +81,10 @@ body{
 		input[type="text"]{
 			width: 282px;
 			padding-left: 10px;
+			height: 30px;
 			line-height: 30px;
 			border: 1px solid #c3d4dd;
+			background-color: #f2f1f2;
 			@include box-shadow(rgba(255,255,255,1) 0 0 0 2px inset, rgba(219,231,238,1) -2px -2px 1px);
 			@include background-image(linear-gradient(#f2f1f2, #fff));
 		}
@@ -94,6 +92,7 @@ body{
 			padding: 0 10px;
 			line-height: 30px;
 			border: 1px solid #e28a0d;
+			background-color: #ffdd67;
 			@include box-shadow(rgba(255,239,184,1) 0 0 0 1px inset);
 			@include background-image(linear-gradient(#ffdd67, #ffb926));
 			font-size: 12px;
@@ -124,6 +123,7 @@ body{
 			width: 118px;
 			line-height: 25px;
 			@include border-radius(4px);
+			background-color: #d1e7f1;
 			@include background-image(linear-gradient(#d1e7f1, #fbfbfb));
 			border: 1px solid #fff;
 			font-family: Verdana, Arial, sans-serif;
@@ -136,6 +136,7 @@ body{
 		a.active-menu-item{
 			line-height: 26px;
 			border-bottom: none;
+			background-color: #cae3ef;
 			@include background-image(linear-gradient(#a9ccde, #cae3ef));
 		}
 	}
@@ -149,6 +150,7 @@ body{
 				display: block;
 				width: 150px;
 				line-height: 25px;
+				background-color: #316b8d;
 				text-decoration: none;
 				text-align: center;
 				font-family: Verdana, Arial, sans-serif;
@@ -162,6 +164,7 @@ body{
 				}
 			}
 			.active-tab-button{
+				background-color: #1c597c;
 				@include background-image(linear-gradient(#1c597c, #306a8c));
 			}
 		}
@@ -227,7 +230,10 @@ body{
 		font-family: Verdana, Arial, sans-serif;
 		font-size: 30px;
 		line-height: 48px;
-		color: #64a0c2;
+		a{
+			text-decoration: none;			
+			color: #64a0c2;
+		}
 	}
 }
 .posts-header{
